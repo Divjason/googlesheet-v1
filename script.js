@@ -7,6 +7,8 @@ form.addEventListener("submit", async function (e) {
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
 
+  console.log(name);
+
   try {
     const res = await fetch(
       "https://script.google.com/macros/s/AKfycbwhzeT71WcDVlVWdHkLdlaOVWeKy_HgngnPcW0YOvxNnZcvlJ9LsOoRFPNmulPFDvVm/exec",
