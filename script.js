@@ -7,7 +7,7 @@ form.addEventListener("submit", async function (e) {
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
 
-  console.log(name);
+  console.log(email);
 
   try {
     const res = await fetch(
