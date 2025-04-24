@@ -10,6 +10,7 @@ form.addEventListener("submit", async function (e) {
   try {
     const res = await fetch(
       "https://script.google.com/macros/s/AKfycbwhzeT71WcDVlVWdHkLdlaOVWeKy_HgngnPcW0YOvxNnZcvlJ9LsOoRFPNmulPFDvVm/exec",
+
       {
         method: "POST",
         headers: {
